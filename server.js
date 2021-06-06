@@ -29,6 +29,7 @@ app.post('/saveData', function (req, res) {
         date: req.body.date,
         feelings: req.body.feelings
     };
+    console.log(projectData)
     res.send(projectData)
 });
 

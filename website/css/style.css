@@ -29,6 +29,15 @@ section input
     border-bottom: 1px solid #000;
     outline: none;
 }
+section textarea
+{
+    width: 80%;
+    padding: 16px;
+    margin: 12px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
 section button
 {
     width: 86%;
