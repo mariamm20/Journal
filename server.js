@@ -1,4 +1,4 @@
-/* Start Setup the server */ 
+/* Start Setup the server */
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
@@ -13,7 +13,7 @@ const run = app.listen(myport, running);
 function running() {
     console.log(`My serever running on : localhost:${myport}`);
 }
-/* End setup server */ 
+/* End setup server */
 
 /* Empty JS object */
 projectData = {};
@@ -22,14 +22,13 @@ app.get('/getData', function (req, res) {
     res.send(projectData)
 });
 
-/* POST Request */ 
+/* POST Request */
 app.post('/saveData', function (req, res) {
     projectData = {
         temp: req.body.temp,
         date: req.body.date,
         feelings: req.body.feelings
     };
-    console.log(projectData);
     res.send(projectData)
 });
 
