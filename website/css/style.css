@@ -1,0 +1,96 @@
+body
+{
+    background-image: url("/img/7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    
+}
+section
+{
+    text-align: center;
+    width:500px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    height: 596px;
+    padding-top: 30px;
+    top: 0;
+}
+h3
+{
+    font-size: 32px;
+}
+section input
+{
+    width: 80%;
+    padding: 16px;
+    margin: 12px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+section button
+{
+    width: 86%;
+    padding: 16px;
+    margin: 20px;
+    background-color: #000;
+    color: #f4c618;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover
+{
+    background-color: #f4c618;
+    color: black;
+}
+
+
+.title
+{
+    font-size: 22px;
+}
+p{
+        display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 18px;
+    margin-left: 32%;
+}
+.fa {
+    margin-right: 30px;
+    color: #f4c618;
+}
+@media (min-width:1186px){
+    section
+    {
+        height: 690px;
+    }
+}
+
+
+@media (min-width: 607px) and (max-width: 1185px)
+{
+    
+    section
+    {
+        position: relative;
+        padding-top: 30px;
+    }
+
+}
+@media (max-width: 606.99px)
+{
+    section
+    {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        padding-top: 20px;
+    }
+    
+}
+
+
+
